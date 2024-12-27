@@ -6,7 +6,7 @@ import re  # Import the 're' module for regular expressions
 import streamlit as st  # Import Streamlit for web app development
 
 # Set the Hugging Face Hub API token as an environment variable
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = "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"
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = 
 # Define the Hugging Face model repository ID
 repo_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 
@@ -14,7 +14,7 @@ repo_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 llm = HuggingFaceEndpoint(
     repo_id=repo_id,  # Specify the model repository ID
     temperature=0.6,  # Set the temperature parameter (controls randomness)
-    token="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",  # Use the API key for authentication
+    token=",  # Use the API key for authentication
 )
 
 # Define a PromptTemplate for title suggestions
